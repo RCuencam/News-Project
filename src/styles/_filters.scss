@@ -1,0 +1,21 @@
+.filter {
+    background: #086a76; 
+    height: auto; 
+    margin-top: 100px;
+
+    .dropdown {
+        button {
+            display: flex;
+            align-items: center;
+            background: #fff;
+            color: black;
+            border: 0;
+            padding: 10px 50px;
+
+            &::after {
+                margin: 8px;
+            }
+        }
+    }
+
+}
